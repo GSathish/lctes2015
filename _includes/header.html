@@ -64,11 +64,12 @@
               {% else %}
               <li><a href="/" class='active'>Home</a></li>
               {% endif %}
-              <li><a href="/portfolio/" {% if page.current == 'portfolio' %}class='active'{% endif %}>Portfolio</a></li>
-              <li><a href="/resume/" {% if page.current == 'resume' %}class='active'{% endif %}>Resumé</a></li>
-              <li><a href="https://github.com/dougjohnston">GitHub</a></li>
-              <li><a href="https://twitter.com/dougjohnston">Twitter</a></li>
-              <li><a href="http://www.linkedin.com/in/dougbjohnston">LinkedIn</a></li>
+              <li><a href="{{ site.url }}/organization/" {% if page.current == 'organization' %}class='active'{% endif %}>Organization</a></li>
+              <li><a href="{{ site.url }}/submission/" {% if page.current == 'submission' %}class='active'{% endif %}>Organization</a></li>
+              <li><a href="{{ site.url }}/registration/" {% if page.current == 'registration' %}class='active'{% endif %}>Organization</a></li>
+              <li><a href="{{ site.url }}/visas/" {% if page.current == 'visas' %}class='active'{% endif %}>Organization</a></li>
+              <li><a href="{{ site.url }}/organization/" {% if page.current == 'organization' %}class='active'{% endif %}>Organization</a></li>
+              <li><a href="{{ site.url }}/program/" {% if page.current == 'program' %}class='active'{% endif %}>Organization</a></li>
             </ul>
           </nav>
         </header>
