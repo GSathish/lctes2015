@@ -60,11 +60,7 @@
           <h2>ACM SIGPLAN Conference on <br />Languages, Compilers, and Tools for Embedded Systems</h2>
           <nav>
             <ul class="inline-list">
-              {% if include.home == "false" %}
-                <li><a href="{{ site.url }}">Home</a></li>
-              {% else %}
-              <li><a href="{{ site.url }}" class='active'>Home</a></li>
-              {% endif %}
+\              <li><a href="{{ site.url }}" {% if page.current == 'home' %}class='active'{% endif %}>Home</a></li>
               <li><a href="{{ site.url }}/organization/" {% if page.current == 'organization' %}class='active'{% endif %}>Organization</a></li>
               <li><a href="{{ site.url }}/submission/" {% if page.current == 'submission' %}class='active'{% endif %}>Submission</a></li>
               <li><a href="{{ site.url }}/registration/" {% if page.current == 'registration' %}class='active'{% endif %}>Registration</a></li>
