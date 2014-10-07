@@ -63,7 +63,7 @@
               {% if include.home == "false" %}
                 <li><a href="{{ site.url }}">Home</a></li>
               {% else %}
-              <li><a href="/" class='active'>Home</a></li>
+              <li><a href="{{ site.url }}" class='active'>Home</a></li>
               {% endif %}
               <li><a href="{{ site.url }}/organization/" {% if page.current == 'organization' %}class='active'{% endif %}>Organization</a></li>
               <li><a href="{{ site.url }}/submission/" {% if page.current == 'submission' %}class='active'{% endif %}>Submission</a></li>
