@@ -115,13 +115,13 @@ pre code {
 }
 
 .inner {
-  width: 720px;
+  width: 800px;
   margin: 30px;
   /* margin: 0 auto; */
 }
 
 #main_content {
-	width: 680px;
+	width: 720px;
 }
 
 .inner-wide {
