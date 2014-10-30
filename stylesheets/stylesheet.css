@@ -177,7 +177,8 @@ nav .active {
 /* #Footer
 ================================================== */
 footer {
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  /* background: transparent url('../images/hr.png') 0 0 no-repeat; */
+  border-top: 2px solid;
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
