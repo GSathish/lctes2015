@@ -1,7 +1,8 @@
 body {
   font-size: 1em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  margin-left: 30px;
+  /* background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat; */
   font-family: "Open Sans", 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   color: #666;
@@ -109,13 +110,13 @@ pre code {
 /* #Container
 ================================================== */
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  /* background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat; */
   min-height: 595px;
 }
 
 .inner {
   width: 720px;
-	margin: 30px;
+  margin: 30px;
   /* margin: 0 auto; */
 }
 
@@ -140,7 +141,7 @@ header {
 }
 
 header h1, header h1 a {
-  font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  font-family: "Open Sans", 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   font-weight: 600;
   font-size: 58px;
   line-height: 68px;
@@ -161,7 +162,7 @@ header h1 em {
 }
 
 header h2 {
-  font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  font-family: "Open Sans", 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   font-weight: 400;
   font-size: 1.6rem;
   color: #aaa;
