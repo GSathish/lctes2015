@@ -43,8 +43,8 @@ code, pre {
 hr {
   height: 1px;
   line-height: 1px;
-  border: none;
-  background: transparent url('../images/hr.png') 50% 0 no-repeat;
+  border-bottom: 2px solid;
+  /* background: transparent url('../images/hr.png') 50% 0 no-repeat; */
 }
 
 h1 {
