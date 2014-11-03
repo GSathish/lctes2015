@@ -169,14 +169,11 @@ header h2 {
   margin-top: 0;
 }
 
-nav {
-  padding: 5px;
-}
-
 nav .active {
   font-weight: bold;
   /* border-bottom: 2px solid #333; */
   background: #eaeaea;
+  padding: 5px;
 }
 
 /* #Footer
